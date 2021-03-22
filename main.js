@@ -2,8 +2,6 @@ var express = require('express');
 var mysql = require('./dbcon.js');
 var CORS = require('cors')
 
-//var router = express.Router();
-
 var app = express();
 
 app.use(express.json())
