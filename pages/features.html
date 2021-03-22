@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BugSplat</title>
+    <link rel="stylesheet" href="../styles/indexstyle.css">
+</head>
+<body>
+    <!-- Title -->
+    <a id="title-link" href="../index.html">        
+        <h1 id="title"> BUGSPL<span style="color:green">A</span>T by Taylor Peterman Industries</h1>
+    </a>
+
+
+    <!-- Side Navigation -->
+    <div id="menu-items">
+    <ul id="side-nav">
+        <li><a href="employees.html">Employees</a></li>
+        <li><a href="teams.html">Teams</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="bugs.html">Bugs</a></li>
+    </ul>
+
+    <!-- Feature Submission -->
+        <div id="form-feature-container">
+        <div id="form">
+        <form id="new-feature-form">
+            <fieldset>
+                <h2>Add New Feature</h2>
+                <label for="new_description_input">Description</label>
+                <input type="text" id="new_description_input">
+                <label for="newdate">Deadline</label>
+                <input type="date" id="new_date_input">
+                <input type="number" id="new_status_input" value="0" hidden>
+                <label for="new_team_input">Team Assigned </label> 
+                <select type="text" id="new_team_input">
+                <input type="submit" id="new_submit_input" value="Submit New Feature">
+            </fieldset>
+        </form>
+        </div>
+        
+    <!-- Feature List-->
+        <div id="featured-features">
+        <h2>&nbsp;&nbsp;&nbsp;Current Features:</h2>
+        <!-- <form>
+            <fieldset>
+                <h2>Feature 001</h2>
+                <textarea id="description" name="description" rows="4" cols="150" disabled>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, sed accusantium. Porro, vero aliquam consectetur reiciendis, quas, ab architecto tempore tempora voluptates illo reprehenderit in vel temporibus sequi facilis inventore?
+                </textarea>
+                <br>
+                <label for="deadline">Deadline</label>
+                <input type="date" name="deadline" value="2018-12-11" disabled>
+                <label for="status">Status</label>
+                <input type="number" name="status" value="0" disabled>
+                <label for="team">Team Assigned</label> 
+                <input type="text" name="team" value="Zoom Team" disabled>
+                <button type="submit" name="edit">Edit</button>
+                <button type="submit" name="delete">Delete</button>
+            </fieldset>
+        </form> -->
+        </div>
+        </div>
+    </div>
+<script src="../scripts/features.js"></script>
+</body>
+</html>

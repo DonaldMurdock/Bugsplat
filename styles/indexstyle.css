@@ -1,0 +1,70 @@
+/* Color theme */
+/* Dark Grey: #43464B
+Mid Gray: #87898c
+light gray: #b2b4b5 
+
+
+
+new lighter gray: #f0f3f5*/
+
+body {
+    background-color: #f0f3f5;
+    color: #43464B;
+}
+
+textarea {
+    margin: 0px;
+    width: 664px;
+    height: 70px;
+}
+
+#side-nav {
+    background-color: #f0f3f5;
+    width: 10%;
+    height: 100%;
+    margin-left: -40px;
+    margin-top: 7px;
+    padding-bottom: 100%;
+    padding-top: 20px;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+}
+
+#title {
+    background-color: #f0f3f5;
+    border-radius: 0 0 12px 0;
+    margin: -10px;
+    padding: 20px;
+    border-bottom: 3px solid black;
+}
+
+#side-nav li{
+    padding: 20px;
+    color: green;
+}
+
+#form {
+    margin-top: 10px;
+    border-bottom: 5px solid black;
+}
+
+#menu-items {
+    display: flex;
+    flex-direction: row;
+}
+
+#welcome-text {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;; 
+}
+
+#title-link{
+    text-decoration: none;
+    color: #43464B;
+}
+
+.employee-id{
+    font-weight: bold;
+
+}
