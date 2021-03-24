@@ -11,8 +11,12 @@ BugSplat models the workflow of a small fictional software company called Taylor
 ## Schema
 ![](Images/Schema.png?raw=true)
 
-
 ## Screenshots
+![](Images/Homepage-Screenshot.png?raw=true)
+![](Images/Employees-Screenshot.png?raw=true)
+![](Images/Teams-Screenshot.png?raw=true)
+![](Images/Features-Screenshot.png?raw=true)
+![](Images/Bugs-Screenshot.png?raw=true)
 
 
 
