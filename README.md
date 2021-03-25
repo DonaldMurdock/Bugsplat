@@ -1,5 +1,6 @@
 ## BugSplat
 Winter 2021, Project for CS340 - Introduction to Databases
+
 By Donald Taylor and Chris Peterman
 
 ## Introduction
