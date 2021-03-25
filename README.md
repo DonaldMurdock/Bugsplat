@@ -8,7 +8,14 @@ BugSplat models the workflow of a small fictional software company called Taylor
 Click [here](https://www.youtube.com/watch?v=FkBK9Mp3_1M) to see a video demo. 
 
 ## Technologies
-- 
+- node version 14.13.0
+- express version 14.13.2
+- mysql version 2.8.0
+
+## Setup
+To run this program type the following at the command prompt:\
+`npm install`\
+`node main.js`
 
 ## Entity Relationship Diagram
 ![](Images/ER-Diagram.png?raw=true)
